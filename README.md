@@ -105,6 +105,22 @@ Thats all it takes..
 
 ## Getting The Project and Running It
 
+### Docker
+
+Build the image 
+
+```sh
+    docker build . -t <tag>
+
+```
+
+Run it
+
+`docker run -p 8082:8080 -d -t <tag>`
+
+
+### Standalone
+
 To get this project and run it you will need to follow the following steps:
 
     git clone  git@github.com:JohnathanMarkSmith/springmvc-helloworld.git
